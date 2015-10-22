@@ -10,8 +10,8 @@ module.exports = function(config) {
     });
   } else {
     config.set({
-      browsers: ['Chrome'],
-      frameworks: ['mocha', 'sinon']
+      browsers: ['PhantomJS'],
+      frameworks: ['phantomjs-shim', 'mocha', 'sinon']
     });
   }
 
